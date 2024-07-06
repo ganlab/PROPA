@@ -82,7 +82,9 @@ This work is based on [Segment Anything](https://github.com/facebookresearch/seg
 Free for non-profit research purposes. Please contact authors otherwise. The program itself may not be modified in any way and no redistribution is allowed.
 No condition is made or to be implied, nor is any warranty given or to be implied, as to the accuracy of PROPA, or that it will be suitable for any particular purpose or for use under any specific conditions, or that the content or use of PROPA will not constitute or result in infringement of third-party rights.
 The software is developed by following author(s) and supervised by Prof. Xiangchao Gan(gan@njau.edu.cn)
+
 Authors:
+
 Weikun Zhao
 zhaowk@stu.njau.edu.cn
 work: overall frame work, vos module, propagation of prompt, segmentation module, web UI based on gradio
