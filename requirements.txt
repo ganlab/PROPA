@@ -1,0 +1,13 @@
+dm-haiku
+dm-tree
+git+https://github.com/facebookresearch/segment-anything.git
+gradio==3.42.0
+h5py
+jax
+mediapy
+open3d
+opencv-python
+pillow
+scikit-learn
+scipy
+tqdm
