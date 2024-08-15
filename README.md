@@ -6,6 +6,8 @@
 
 **PROPA** is a prompt propagation-based target reconstruction framework, which identifies and segments target objects robustly from a sequence of images using foundation AI models and reconstructs the objects in 3D point cloud with the Multi-View Stereo method.
 
+Compared with SAM2, PROPA performs better in segmentation of separated frames. We selected 100 frames of the same rice plant from different poses, and then used PROPA and SAM2 for segmentation of panicle. The results shows that PROPA produced good segmentation results in more than 40 frames, while SAM2 only produced good results in about 20 frames.
+
 ## Getting Started
 
 ### Clone PROPA
