@@ -8,6 +8,12 @@
 
 Compared with SAM2, PROPA performs better in segmentation of separated frames. We selected 100 frames of the same rice plant from different poses, and then used PROPA and SAM2 for segmentation of panicle. The results shows that PROPA produced good segmentation results in more than 40 frames, while SAM2 only produced good results in about 20 frames.
 
+<div align=center class='img_top'>
+<img src="./assets/sam2.png" width="90%"/>
+</div>
+
+In images with similar poses to the template, both SAM2 and PROPA can achieve good results. But in images with different poses, SAM2 may fail to segment. This is mainly because SAM2 relies on the segmentation results of the previous frame, while PROPA interacts directly with the template.
+
 ## Getting Started
 
 ### Clone PROPA
