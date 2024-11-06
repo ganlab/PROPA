@@ -88,9 +88,7 @@ Free for non-profit research purposes. Please contact authors otherwise. The pro
 No condition is made or to be implied, nor is any warranty given or to be implied, as to the accuracy of PROPA, or that it will be suitable for any particular purpose or for use under any specific conditions, or that the content or use of PROPA will not constitute or result in infringement of third-party rights.
 
 ## Acknowledgements
-This work is based on [Segment Anything](https://github.com/facebookresearch/segment-anything), [COLMAP](https://github.com/colmap/colmap), [OpenMVS](http://github.com/cdcseacave/openMVS), [Hierarchical-Localization](https://github.com/cvg/Hierarchical-Localization) and [Tapnet](https://github.com/google-deepmind/tapnet)
-
-The software is developed by following author(s) and supervised by Prof. Xiangchao Gan(gan@njau.edu.cn)
+This work is based on [Segment Anything](https://github.com/facebookresearch/segment-anything), [COLMAP](https://github.com/colmap/colmap), [OpenMVS](http://github.com/cdcseacave/openMVS), [Hierarchical-Localization](https://github.com/cvg/Hierarchical-Localization) and [Tapnet](https://github.com/google-deepmind/tapnet). The software is developed by following author(s) and supervised by Prof. Xiangchao Gan(gan@njau.edu.cn)
 
 Authors:
 
