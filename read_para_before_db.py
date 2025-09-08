@@ -159,6 +159,10 @@ def get_matches_and_points_from_h5(folder_path='C:/Users/d1595/Desktop/read_poin
         if len({(id0, id1), (id1, id0)} & matched) > 0:
             continue
         matches, scores = get_matches(matches_path, name0, name1)
+
+        high_confidence = (scores > 0.9)
+        matches = matches[high_confidence]
+
         key = (id0, id1)
         if key in points_matches:
             points_matches[key].extend(matches)
