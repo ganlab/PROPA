@@ -78,6 +78,9 @@ The UI looks like:
 3. You can modify "Positive" or "Negative" to select different types of prompts in ③. If multi-label is required, please click the "Add mask" button after selecting a label. After the entire image is segmented, click “Generate mask” button in ④ to generate a mask for the entire image.
 4. Click the "Start tracking" button in ④ to start tracking. The result video will be shown in ⑤.
 
+
+We also implement target reconstruction based on Open3D's RGB-D reconstruction. You can check the [rgbd-demo](rgbdreconstruction/run_system.py) for detailed use.
+
 ## Citation
 Please considering cite our paper if you find this work useful!
 ```
