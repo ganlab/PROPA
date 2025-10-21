@@ -62,6 +62,9 @@ The UI looks like:
 3. You can modify "Positive" or "Negative" to select different types of prompts in ③. If multi-label is required, please click the "Add mask" button after selecting a label. After the entire image is segmented, click “Generate mask” button in ④ to generate a mask for the entire image. Then you can drag the "Image Number" slider to create mask for more images.
 4. Drag the "Number Matches" slider in ⑤ to select the appropriate COLMAP parameters, and finally click the "Start Reconstruction" button. You can view the running log in the console. The visual effect of the point cloud will be available in ⑥ and the point cloud file can be found in ```reconstruction/<name-of-your-file>/output/dense_scene.ply```
 
+#### RGB-D Reconstruction
+We also implement target reconstruction based on Open3D's **RGB-D reconstruction**. Please generate the mask for all images with same step described as above. Then, you can check the [rgbd demo](rgbdreconstruction/run_system.py) for detailed use.
+
 ## Video Object Segmentation
 We also create a web user interface for video object segmentation based on gradio:
 ```shell
@@ -77,9 +80,6 @@ The UI looks like:
 2. The first frame of the video will be shown in ②. Click on the image to generate the segmentation result. If you are not satisfied with the segmentation result, you can click it multiple times.
 3. You can modify "Positive" or "Negative" to select different types of prompts in ③. If multi-label is required, please click the "Add mask" button after selecting a label. After the entire image is segmented, click “Generate mask” button in ④ to generate a mask for the entire image.
 4. Click the "Start tracking" button in ④ to start tracking. The result video will be shown in ⑤.
-
-
-We also implement target reconstruction based on Open3D's RGB-D reconstruction. You can check the [rgbd-demo](rgbdreconstruction/run_system.py) for detailed use.
 
 ## Citation
 Please considering cite our paper if you find this work useful!
